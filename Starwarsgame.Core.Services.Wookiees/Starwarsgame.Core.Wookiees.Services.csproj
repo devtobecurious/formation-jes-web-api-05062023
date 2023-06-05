@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Starwarsgame.Core.Application.Wookiees\Starwarsgame.Core.Wookiees.Application.csproj" />
+    <ProjectReference Include="..\StarwarsGame.Core.Models\StarwarsGame.Core.Models.csproj" />
+  </ItemGroup>
+
+</Project>

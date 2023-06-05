@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>7df4a3d6-2cf4-429c-b1c2-0cd156bae2d3</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Starwarsgame.Core.Application.Wookiees\Starwarsgame.Core.Wookiees.Application.csproj" />
+    <ProjectReference Include="..\StarwarsGame.Core.Models\StarwarsGame.Core.Models.csproj" />
+    <ProjectReference Include="..\Starwarsgame.Core.Services.Wookiees\Starwarsgame.Core.Wookiees.Services.csproj" />
+  </ItemGroup>
+
+</Project>
