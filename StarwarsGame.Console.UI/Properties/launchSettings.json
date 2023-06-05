@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "StarwarsGame.Console.UI": {
+      "commandName": "Project",
+      "commandLineArgs": "alors=1"
+    },
+    "StarwarsGame.Console.UI.2": {
+      "commandName": "Project",
+      "commandLineArgs": "alors=21"
+    }
+  }
+}
