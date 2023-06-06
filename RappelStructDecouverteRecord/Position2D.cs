@@ -16,7 +16,9 @@
 
     public record Position2DRR
     {
-        public int X { get; init; }
+        public int X { get; set; }
         public int Y { get; set; }
+
+        public void Hello() { }
     }
 }

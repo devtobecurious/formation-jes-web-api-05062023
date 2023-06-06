@@ -11,13 +11,13 @@
 //Position2DS positionC3 = positionC1;
 
 // C'est record
-Position2DR positionC1 = new(1, 1);
-Position2DR positionC2 = new(1, 1);
-Position2DR positionC3 = positionC1;
+Position2DRR positionC1 = new() { X = 1, Y = 1 };
+Position2DRR positionC2 = new() { X = 1, Y = 1 };
+Position2DRR positionC3 = positionC1;
 
 
 
-// positionC3.X = 2;
+positionC3.X = 2;
 
 bool exact = positionC1 == positionC2;
 
