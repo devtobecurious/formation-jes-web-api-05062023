@@ -15,6 +15,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Starwarsgame.Core.Application.Wookiees\Starwarsgame.Core.Wookiees.Application.csproj" />
+    <ProjectReference Include="..\Starwarsgame.Core.Enemies.Application\Starwarsgame.Core.Enemies.Application.csproj" />
+    <ProjectReference Include="..\Starwarsgame.Core.Enemies.Services\Starwarsgame.Core.Enemies.Services.csproj" />
+    <ProjectReference Include="..\StarwarsGame.Core.Models.Enemies\StarwarsGame.Core.Models.Enemies.csproj" />
     <ProjectReference Include="..\StarwarsGame.Core.Models\StarwarsGame.Core.Models.csproj" />
     <ProjectReference Include="..\Starwarsgame.Core.Services.Wookiees\Starwarsgame.Core.Wookiees.Services.csproj" />
   </ItemGroup>

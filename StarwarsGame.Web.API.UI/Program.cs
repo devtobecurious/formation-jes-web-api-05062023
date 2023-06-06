@@ -1,3 +1,5 @@
+using Starwarsgame.Core.Enemies.Application;
+using Starwarsgame.Core.Enemies.Services;
 using Starwarsgame.Core.Wookiees.Application;
 using Starwarsgame.Core.Wookiees.Services;
 
@@ -5,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+builder.Services.AddScoped<IEnemyService, MemoryEnemyService>();
 builder.Services.AddScoped<IWookieeService, MemoryWookieeService>();
 
 builder.Services.AddControllers();

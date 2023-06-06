@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StarwarsCo.Core.Services.Interfaces\StarwarsCo.Core.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\StarwarsGame.Core.Models.Enemies\StarwarsGame.Core.Models.Enemies.csproj" />
+  </ItemGroup>
+
+</Project>
