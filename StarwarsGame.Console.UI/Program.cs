@@ -52,3 +52,12 @@ var afficherL = (string? messageuuuh) =>
 
 // Calculer(afficherL);
 
+
+HumeurMoyenDeplacement humeurMoyen = new();
+Wookiee wookieeC = new();
+
+IMoyenDeplacement? moyenDeplacement = humeurMoyen.Get();
+if (moyenDeplacement != null)
+{
+    wookieeC.SeDeplacer(moyenDeplacement);
+}
