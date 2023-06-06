@@ -20,6 +20,7 @@
             deplacement.Deplacer();
         }
 
+        //[Key]
         public int Id { get; set; } = 1;
         public string? Name { get; private set; }
 

@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Starwarsgame.Core.Application.Wookiees\Starwarsgame.Core.Wookiees.Application.csproj" />
     <ProjectReference Include="..\StarwarsGame.Core.Models\StarwarsGame.Core.Models.csproj" />
   </ItemGroup>

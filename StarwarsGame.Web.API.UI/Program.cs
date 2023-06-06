@@ -1,14 +1,11 @@
-using Starwarsgame.Core.Enemies.Application;
-using Starwarsgame.Core.Enemies.Services;
-using Starwarsgame.Core.Wookiees.Application;
-using Starwarsgame.Core.Wookiees.Services;
+
+using StarwarsGame.Web.API.UI.Shared.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddScoped<IEnemyService, MemoryEnemyService>();
-builder.Services.AddScoped<IWookieeService, MemoryWookieeService>();
+builder.Services.AddCustomServices();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
