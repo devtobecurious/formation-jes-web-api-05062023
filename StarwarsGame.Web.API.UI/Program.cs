@@ -1,9 +1,15 @@
 
+using Starwarsgame.Core.Wookiees.Services;
 using StarwarsGame.Web.API.UI.Shared.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddDbContext<WookieeContext>(options =>
+{
+
+});
 
 builder.Services.AddCustomServices();
 
