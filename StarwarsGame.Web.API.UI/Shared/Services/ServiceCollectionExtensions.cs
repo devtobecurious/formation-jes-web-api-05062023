@@ -1,5 +1,8 @@
-﻿using Starwarsgame.Core.Enemies.Application;
+﻿using StarwarsCo.Core.Services.Interfaces;
+using Starwarsgame.Core.Enemies.Application;
 using Starwarsgame.Core.Enemies.Services;
+using Starwarsgame.Core.Games.Models;
+using Starwarsgame.Core.Games.Services;
 using Starwarsgame.Core.Wookiees.Application;
 using Starwarsgame.Core.Wookiees.Services;
 
@@ -16,6 +19,8 @@ namespace StarwarsGame.Web.API.UI.Shared.Services
             services.AddScoped<IEnemyService, MemoryEnemyService>();
 #endif
             services.AddScoped<IWookieeService, ContextWookieeService>();
+
+            services.AddScoped<IGetAll<Game>, GameGetAllService>();
             return services;
         }
         #endregion

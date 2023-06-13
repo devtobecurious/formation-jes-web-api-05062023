@@ -7,7 +7,7 @@ namespace Starwarsgame.Core.Wookiees.Services.Factories
     {
         public WookieeContext CreateDbContext(string[] args)
         {
-            DbContextOptionsBuilder builder = new();
+            DbContextOptionsBuilder<WookieeContext> builder = new();
 
             builder.UseSqlServer("sever=127.0.0.1", options =>
             {

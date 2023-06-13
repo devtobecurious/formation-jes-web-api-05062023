@@ -15,11 +15,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{D7102B7A-7629-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarwarsGame.Web.API.UI", "StarwarsGame.Web.API.UI\StarwarsGame.Web.API.UI.csproj", "{841B92D6-064B-44D3-9ACC-31ADFC6BFE3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEmpty", "TestEmpty\TestEmpty.csproj", "{C111216C-28DA-4BF8-BB54-47402002CB6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestEmpty", "TestEmpty\TestEmpty.csproj", "{C111216C-28DA-4BF8-BB54-47402002CB6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiDotnetSeven", "WebApiDotnetSeven\WebApiDotnetSeven.csproj", "{E0912ECA-506A-4D1A-8395-4F309CAFD276}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiDotnetSeven", "WebApiDotnetSeven\WebApiDotnetSeven.csproj", "{E0912ECA-506A-4D1A-8395-4F309CAFD276}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starwarsgame.Core.Wookiees.Services", "Starwarsgame.Core.Services.Wookiees\Starwarsgame.Core.Wookiees.Services.csproj", "{CE8DF78D-DA7B-40D9-9628-D718C3F0D7AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Starwarsgame.Core.Wookiees.Services", "Starwarsgame.Core.Services.Wookiees\Starwarsgame.Core.Wookiees.Services.csproj", "{CE8DF78D-DA7B-40D9-9628-D718C3F0D7AB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wookiees", "Wookiees", "{78638CAE-7B3C-44BA-89C4-4BBF27C71E83}"
 EndProject
@@ -27,27 +27,42 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{CECDEBF8-F8DC-4F80-A3CB-C4074041E752}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starwarsgame.Core.Wookiees.Application", "Starwarsgame.Core.Application.Wookiees\Starwarsgame.Core.Wookiees.Application.csproj", "{42F8A92A-E220-4A47-9F48-2775E51D45CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Starwarsgame.Core.Wookiees.Application", "Starwarsgame.Core.Application.Wookiees\Starwarsgame.Core.Wookiees.Application.csproj", "{42F8A92A-E220-4A47-9F48-2775E51D45CA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Learnings", "Learnings", "{97C137A5-F2B6-41C2-B0EB-4D9CAB221B51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RappelStructDecouverteRecord", "RappelStructDecouverteRecord\RappelStructDecouverteRecord.csproj", "{37AE9FD2-7F7D-438A-8181-1BFBD5912ED9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RappelStructDecouverteRecord", "RappelStructDecouverteRecord\RappelStructDecouverteRecord.csproj", "{37AE9FD2-7F7D-438A-8181-1BFBD5912ED9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enemies", "Enemies", "{76AF666E-6C31-4574-8CCA-2ABEACD7DE15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarwarsGame.Core.Models.Enemies", "StarwarsGame.Core.Models.Enemies\StarwarsGame.Core.Models.Enemies.csproj", "{4A8D8F26-7C9A-40D2-A245-5EABF371AAB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarwarsGame.Core.Models.Enemies", "StarwarsGame.Core.Models.Enemies\StarwarsGame.Core.Models.Enemies.csproj", "{4A8D8F26-7C9A-40D2-A245-5EABF371AAB7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{23B2EE0E-5B15-44B7-8E5C-61C654166F22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarwarsCo.Core.Services.Interfaces", "StarwarsCo.Core.Services.Interfaces\StarwarsCo.Core.Services.Interfaces.csproj", "{6863D112-F4EF-4556-85B8-35DFDE394632}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarwarsCo.Core.Services.Interfaces", "StarwarsCo.Core.Services.Interfaces\StarwarsCo.Core.Services.Interfaces.csproj", "{6863D112-F4EF-4556-85B8-35DFDE394632}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starwarsgame.Core.Enemies.Services", "Starwarsgame.Core.Enemies.Services\Starwarsgame.Core.Enemies.Services.csproj", "{74E4FF92-511A-4A59-AC25-6D2A629926A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Starwarsgame.Core.Enemies.Services", "Starwarsgame.Core.Enemies.Services\Starwarsgame.Core.Enemies.Services.csproj", "{74E4FF92-511A-4A59-AC25-6D2A629926A6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5805B42A-B06D-4E13-A8B0-F0BE11897174}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{225F21FC-8A10-48A6-BB16-FF60DBD0CD4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starwarsgame.Core.Enemies.Application", "Starwarsgame.Core.Enemies.Application\Starwarsgame.Core.Enemies.Application.csproj", "{2408F632-C5DD-4911-A5A2-45887690E6F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Starwarsgame.Core.Enemies.Application", "Starwarsgame.Core.Enemies.Application\Starwarsgame.Core.Enemies.Application.csproj", "{2408F632-C5DD-4911-A5A2-45887690E6F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{54BB3A4E-3B4A-462A-9F52-04E9E904D5ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starwarsgame.Core.Games.Models", "Starwarsgame.Core.Games.Models\Starwarsgame.Core.Games.Models.csproj", "{B11CBE43-E8A3-4293-986E-96688B75F85C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starwarsgame.Core.Games.Services", "Starwarsgame.Core.Games.Services\Starwarsgame.Core.Games.Services.csproj", "{2D31D2E9-8890-40C5-930E-543CE2AC19B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starwarsgame.Core.Games.Application", "Starwarsgame.Core.Games.Application\Starwarsgame.Core.Games.Application.csproj", "{9CF639AF-374D-49E7-AB7D-332D59F3D689}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{175642CC-C55E-4944-9045-5F3559D5583B}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestConfig", "TestConfig\TestConfig.csproj", "{D5704436-8188-48C8-8237-3C72DFF30C8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -107,6 +122,22 @@ Global
 		{2408F632-C5DD-4911-A5A2-45887690E6F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2408F632-C5DD-4911-A5A2-45887690E6F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2408F632-C5DD-4911-A5A2-45887690E6F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B11CBE43-E8A3-4293-986E-96688B75F85C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B11CBE43-E8A3-4293-986E-96688B75F85C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B11CBE43-E8A3-4293-986E-96688B75F85C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B11CBE43-E8A3-4293-986E-96688B75F85C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D31D2E9-8890-40C5-930E-543CE2AC19B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D31D2E9-8890-40C5-930E-543CE2AC19B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D31D2E9-8890-40C5-930E-543CE2AC19B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D31D2E9-8890-40C5-930E-543CE2AC19B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF639AF-374D-49E7-AB7D-332D59F3D689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF639AF-374D-49E7-AB7D-332D59F3D689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF639AF-374D-49E7-AB7D-332D59F3D689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF639AF-374D-49E7-AB7D-332D59F3D689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5704436-8188-48C8-8237-3C72DFF30C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5704436-8188-48C8-8237-3C72DFF30C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5704436-8188-48C8-8237-3C72DFF30C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5704436-8188-48C8-8237-3C72DFF30C8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -132,6 +163,11 @@ Global
 		{5805B42A-B06D-4E13-A8B0-F0BE11897174} = {76AF666E-6C31-4574-8CCA-2ABEACD7DE15}
 		{225F21FC-8A10-48A6-BB16-FF60DBD0CD4E} = {76AF666E-6C31-4574-8CCA-2ABEACD7DE15}
 		{2408F632-C5DD-4911-A5A2-45887690E6F2} = {225F21FC-8A10-48A6-BB16-FF60DBD0CD4E}
+		{54BB3A4E-3B4A-462A-9F52-04E9E904D5ED} = {3CD39457-ADB2-4C05-A3E0-3F9A8199AE0F}
+		{B11CBE43-E8A3-4293-986E-96688B75F85C} = {54BB3A4E-3B4A-462A-9F52-04E9E904D5ED}
+		{2D31D2E9-8890-40C5-930E-543CE2AC19B3} = {54BB3A4E-3B4A-462A-9F52-04E9E904D5ED}
+		{9CF639AF-374D-49E7-AB7D-332D59F3D689} = {54BB3A4E-3B4A-462A-9F52-04E9E904D5ED}
+		{D5704436-8188-48C8-8237-3C72DFF30C8A} = {97C137A5-F2B6-41C2-B0EB-4D9CAB221B51}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {96F3C506-656A-4D85-8A95-8D412E90AC27}

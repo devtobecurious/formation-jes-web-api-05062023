@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Starwarsgame.Core.Games.Services;
 using Starwarsgame.Core.Wookiees.Services;
 
 namespace StarwarsGame.Web.API.UI.Shared.Services
@@ -21,6 +22,11 @@ namespace StarwarsGame.Web.API.UI.Shared.Services
             };
 
             services.AddDbContext<WookieeContext>(callbackSettings);
+
+            services.AddDbContext<GameDbContext>(options =>
+            {
+                options.UseInMemoryDatabase("GamesDb");
+            });
 
             return services;
         }

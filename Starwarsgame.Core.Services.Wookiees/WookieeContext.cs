@@ -11,7 +11,7 @@ namespace Starwarsgame.Core.Wookiees.Services
         {
         }
 
-        public WookieeContext(DbContextOptions options) : base(options)
+        public WookieeContext(DbContextOptions<WookieeContext> options) : base(options)
         {
 
         }
