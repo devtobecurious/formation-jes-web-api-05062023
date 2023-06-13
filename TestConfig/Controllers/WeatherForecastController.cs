@@ -19,7 +19,7 @@ public class WeatherForecastController : ControllerBase
     public WeatherForecastController(IHostEnvironment env,
         IConfiguration configuration,
         ILogger<WeatherForecastController> logger,
-        IOptions<GameConfig> gameConfigOption)
+        IOptionsSnapshot<GameConfig> gameConfigOption)
     {
         _logger = logger;
         WriteLine("ma chaine : {0}", configuration["ConnectionStrings:MaConnectionString"]);
