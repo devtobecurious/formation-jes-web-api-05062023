@@ -15,7 +15,7 @@ namespace StarwarsGame.Web.API.UI.Shared.Services
 #else
             services.AddScoped<IEnemyService, MemoryEnemyService>();
 #endif
-            services.AddScoped<IWookieeService, MemoryWookieeService>();
+            services.AddScoped<IWookieeService, ContextWookieeService>();
             return services;
         }
         #endregion

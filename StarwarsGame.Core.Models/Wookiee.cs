@@ -3,6 +3,7 @@
     /// <summary>
     /// fjskgjfhdk
     /// </summary>
+    //[Table("")] a ne pas faire : dependance non voulue
     public class Wookiee
     {
         public Wookiee() : this("", 10000)
@@ -29,5 +30,9 @@
         public IEnumerable<Weapon> Weapons { get; init; } = new List<Weapon>();
 
         public Weapon? MainWeapon => this.Weapons.FirstOrDefault(item => item.IsMain);
+
+        public List<Role> Roles { get; set; } = new List<Role>();
+
+        public Grade Grade { get; set; } = Grade.Caporal;
     }
 }

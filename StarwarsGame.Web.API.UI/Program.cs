@@ -1,17 +1,20 @@
-
-using Starwarsgame.Core.Wookiees.Services;
 using StarwarsGame.Web.API.UI.Shared.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddDbContext<WookieeContext>(options =>
-{
+//DbContextOptionsBuilder builderDB = new();
+//builderDB.UseInMemoryDatabase("ddd");
 
-});
+////using var context = new WookieeContext(builderDB.Options);
+//using (var context = new WookieeContext(builderDB.Options))
+//{
 
-builder.Services.AddCustomServices();
+//}
+
+builder.Services.ConfigDbContext()
+                .AddCustomServices();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
